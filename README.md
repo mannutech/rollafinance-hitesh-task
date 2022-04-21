@@ -1,49 +1,31 @@
-## Description
+# Rolla Finance Hosted Wallet Task - Hitesh
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Description
+- Register an account to a database of your choice
+- Get their username and deposit address
+- Get their balance for ether and a specific token
+
+## Documentation
+* [Postman Documentation with Examples](https://documenter.getpostman.com/view/12342041/Uyr5ozRp)  
+
 
 ## Installation
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+#Setup postgres database
+sh db_launch_script.sh
 ```
-
-## Test
 
 ```bash
-# unit tests
-$ npm run test
+# development
+$ yarn run start
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# watch mode
+$ yarn run start:dev
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
